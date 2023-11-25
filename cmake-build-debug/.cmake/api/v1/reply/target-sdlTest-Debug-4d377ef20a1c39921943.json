@@ -49,18 +49,32 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-F"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/Library/Frameworks/"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/usr/include/SDL2"
+					"path" : "/Users/iosuapaul/Desktop/space-invades-sdl-task/glm"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/hnq/Desktop/sdlTest/glm"
+					"isSystem" : true,
+					"path" : "/Library/Frameworks/SDL2.framework/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/Library/Frameworks/SDL2.framework"
 				}
 			],
 			"language" : "CXX",
@@ -85,8 +99,23 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/usr/lib/x86_64-linux-gnu  -lSDL2",
-				"role" : "libraries"
+				"fragment" : "-F",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Library/Frameworks/",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-framework",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "SDL2",
+				"role" : "flags"
 			}
 		],
 		"language" : "CXX"
