@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sdlTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Library\;CMake Files\..\..\..\..\Library\Frameworks\;CMake Files\..\..\..\..\Library\Frameworks\SDL2.framework\;CMake Files\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\;CMake Files\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdlTest">
+				<Option output="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/sdlTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/iosuapaul/Desktop/space-invades-sdl-task/glm"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 sdlTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdlTest/fast">
+				<Option output="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/sdlTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/iosuapaul/Desktop/space-invades-sdl-task/glm"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/Library/Frameworks/SDL2.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 sdlTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/iosuapaul/Desktop/space-invades-sdl-task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/iosuapaul/Desktop/space-invades-sdl-task/main.cpp">
+			<Option target="sdlTest"/>
+		</Unit>
+		<Unit filename="/Users/iosuapaul/Desktop/space-invades-sdl-task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/iosuapaul/Desktop/space-invades-sdl-task/../../../../Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/iosuapaul/Desktop/space-invades-sdl-task/../../../../Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Library\Frameworks\SDL2.framework\Resources\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
